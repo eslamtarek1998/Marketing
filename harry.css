@@ -1,0 +1,336 @@
+
+    *{
+        margin: 0;
+        font-family: sans-serif;
+    }
+    html{scroll-behavior: smooth;}
+   
+/* ===============
+   1. header
+================ */
+ 
+   header{
+   
+  
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+   
+   }
+a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    display: inline-block;
+}
+
+
+a:hover{
+    background-color: gray;
+  
+}
+.fa-search{
+    color: white;
+    padding-top: 30px;
+    padding-right: 15px;
+}
+
+    .logo{
+        background-color: #009688;
+    }
+
+    .parent{
+        position: absolute;
+        left: 540px;
+        background-color: #818887;
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        visibility: hidden;
+
+
+    }
+
+    .drop:hover+.parent{
+        visibility: visible;
+    }
+
+
+    /* ===============
+   2. image
+================ */
+.img1{
+    width: 100%;
+    height: 400px;
+    
+}
+.learn{
+    background-color: black;
+    color: white;
+    
+    font-size: larger;
+    position: relative;
+    bottom: 150px;
+    left: 50px;
+    font-size: 20px;
+    
+    
+}
+.learn:hover{
+    background-color:#009688 ;
+}
+
+/* ===============
+   3. Team
+================ */
+
+.team{
+    text-align: center;
+}
+h1{
+    margin-bottom: 20px;
+}
+.pp{
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.img2{
+    
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.pictures{
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    margin-top: 10px;
+
+}
+
+/* ===============
+   4. our work
+================ */
+.work{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(51, 48, 48);
+    display: flex;
+    justify-content: space-around;
+}
+
+.customer{
+
+  
+    width: 300px;
+    height: 380px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.img3{
+    width: 300px;
+    margin-bottom: 10px;
+}
+h3{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.ppp{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.lorem{
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+}
+.lorem p{
+    width: 250px;
+}
+
+/* ===============
+   5. pricing
+================ */
+.plan{
+    text-align: center;
+}
+.basic{
+   
+    width: 400px;
+    height: 400px;
+    
+}
+.basic:hover{
+    
+}
+
+.em{
+    
+    text-align: center;
+    border: 2px solid rgb(190, 186, 186);
+    padding: 15px 0;
+   
+}
+h4{
+   
+    
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+    padding: 30px;
+}
+.ch{
+    margin-bottom: 40px;
+}
+.pr{
+    margin-top: 100px;
+}
+.sign{
+    background-color: #009688 ;
+    color: white;
+    margin-left: 150px;
+    
+    margin-top: 20px;
+    margin-bottom: 80px;
+    padding: 10px 15px;
+  
+    
+}
+
+.sign:hover{
+    background-color: rgb(190, 186, 186);
+}
+.pricing{
+    display: flex;
+    justify-content: space-around;
+}
+.aa{
+    border: 2px solid rgb(190, 186, 186);
+    
+}
+/* ===============
+   6. contact us
+================ */
+
+.contact {
+    background-color: #d1dfdd;
+    width: 100%;
+    height: 450px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+  .us{
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  h5{
+    font-weight: bold;
+    border-bottom:4px solid teal ;
+    display: inline-block;
+    font-size: larger;
+    margin-bottom: 20px;
+  }
+  .us p{
+    margin-bottom: 20px;
+  }
+  
+  .login{
+    margin-right: 30px;
+    background-color: white;
+    width: 700px;
+    height: 350px;
+    padding-top: 20px;
+
+
+    margin-top: 30px;
+  }
+  input{
+  
+    margin-bottom:40px;
+   
+    margin-left: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+
+  }
+  label{
+  
+    
+    margin-top: 20px;
+    margin-left: 10px;
+
+  }
+  .in{
+    height: 25px;
+    width: 97%;
+    margin-left: 10px;
+    
+  }
+ 
+  .send1{
+    background-color: black;
+    color: white;
+    padding:10px 20px ;
+    margin-right: 10px;
+  }
+  .flex{
+    display: flex;
+    justify-content: space-between;
+  }
+ /* ===============
+   7. map
+================ */
+.map{
+    width: 100%;
+    min-height: 500px;
+    margin-top: 70px;
+}
+/* ===============
+  8 .follow us
+================ */
+footer{
+    margin-top: 100px;
+    background-color: black;
+    padding: 40px 0;
+}
+
+footer p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+ .main-icon{
+    
+    display: flex;
+    justify-content: center;
+ }
+
+ .main-icon div{
+     background-color: teal;
+     color: white;
+ 
+     padding: 8px 16px;
+
+     margin-left: 5px;
+ }
+
+ .main-icon div:hover{
+     background-color: rgb(204, 202, 202);
+     cursor: pointer;
+ }
+ #team,#work,#price,#contact{
+padding-top: 90px;
+ }
+ 
+ 
